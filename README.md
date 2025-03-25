@@ -80,12 +80,4 @@ Acesse em: [http://localhost:4200](http://localhost:4200)
 
 ---
 
-## 🌐 Publicação
-
-O projeto está publicado via GitHub Pages em:
-
-🔗 https://martinsRossi.github.io/tarefas-app/
-
----
-
 ## 🚀 Feito por Renan Martins com Angular
