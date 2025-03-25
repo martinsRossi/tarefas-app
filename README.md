@@ -1,59 +1,44 @@
-# TarefasApp
+📝 Tarefas App - Lista de Tarefas com Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4.
+Este projeto é uma aplicação web simples desenvolvida em Angular que permite ao usuário criar, visualizar, concluir e remover tarefas, com salvamento automático no navegador usando localStorage.
 
-## Development server
+---
 
-To start a local development server, run:
+🎯 Objetivo
 
-```bash
-ng serve
-```
+O objetivo deste projeto é proporcionar uma interface intuitiva para organização de tarefas, praticando os fundamentos do Angular 2+ como:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Criação de componentes standalone
+- Uso de diretivas estruturais (*ngIf, *ngFor)
+- Two-way data binding ([(ngModel)])
+- Manipulação de eventos
+- Estilização com CSS direto no componente
+- Armazenamento local (localStorage)
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+🛠️ Tecnologias Utilizadas
 
-```bash
-ng generate component component-name
-```
+- Angular (v17+ standalone)
+- TypeScript
+- HTML5 e CSS3 (com Flexbox)
+- localStorage (armazenamento local do navegador)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+🚀 Funcionalidades
 
-## Building
+- Adicionar tarefas com clique ou tecla Enter
+- Marcar tarefas como concluídas clicando nelas
+- Risco visual nas tarefas concluídas
+- Lista separada de tarefas pendentes e concluídas
+- Botão de remoção para cada item
+- Persistência dos dados (mesmo após recarregar a página)
+- Contador de tarefas (opcional)
+- Interface responsiva e amigável
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+🗂️ Estrutura do Projeto
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Como o projeto foi desenvolvido com `standalone components`, toda a lógica, template e estilos estão dentro de `app.component.ts`.
